@@ -30,11 +30,8 @@ int Binary_Search(int arr[], int size, int element){
 }
 
 int main(){
-    // int arr[10]={45,87,12,34,90,66,1233,3,56,20};
-    // int size = sizeof(arr)/sizeof(int);
-    // int element = 56;
 
-    int size, arr[100], element;
+    int size=0, arr[], element=0;
     printf("Enter size of array: ");
     scanf("%d",&size);
     
